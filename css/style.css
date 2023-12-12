@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+
+}
+
+body{
+    background-color: rgb(199, 255, 255);
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+}
+
+.ListaPrincipal{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+section{
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+h1{
+    text-align: center;
+}
+
+.styleList{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.imagem{
+    max-width: 20rem;
+}
